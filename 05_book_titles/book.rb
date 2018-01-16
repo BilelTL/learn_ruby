@@ -1,3 +1,12 @@
 class Book
-# write your code here
+	attr_accessor :title
+
+	def initialize(title = "book")
+		@title = title.capitalize # ne fonctionne pas
+		
+		
+	end
+
+
+
 end
